@@ -1,7 +1,7 @@
 ###Tested in Linux Mint 21.1
 
-###LibreOffice (stable & rather fresh). Will natively update
-sudo add-apt-repository ppa:libreoffice/libreoffice-still
+###LibreOffice (fresh version). Will natively update
+sudo add-apt-repository ppa:libreoffice/ppa
 
 ###JOSM repo
 # Download the key
