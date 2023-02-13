@@ -7,4 +7,4 @@ sudo add-apt-repository ppa:libreoffice/ppa
 # Download the key
 wget -q https://josm.openstreetmap.de/josm-apt.key -O- | sudo gpg --dearmor -o /etc/apt/keyrings/josm-apt.gpg
 # Add repository
-echo "deb [signed-by=/etc/apt/keyrings/josm-apt.gpg] https://josm.openstreetmap.de/apt $(grep ^DISTRIB_CODENAME= /etc/upstream-release/lsb-release | awk -F = '{print $(2)}') universe" | sudo tee /etc/apt/sources.list.d/josm.list > /dev/null
+echo "deb [arch=amd64 signed-by=/etc/apt/keyrings/josm-apt.gpg] https://josm.openstreetmap.de/apt alldist universe" | sudo tee /etc/apt/sources.list.d/josm.list > /dev/null
