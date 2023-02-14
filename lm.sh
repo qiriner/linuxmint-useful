@@ -1,8 +1,8 @@
 #!/bin/sh
 #Tested in Linux Mint 21.1
 
-##LibreOffice repository (current stable version)
-sudo add-apt-repository ppa:libreoffice/ppa
+##LibreOffice repository (stable version)
+sudo add-apt-repository ppa:libreoffice/libreoffice-still
 
 ##JOSM repository
 wget -q https://josm.openstreetmap.de/josm-apt.key -O- | sudo gpg --dearmor -o /etc/apt/keyrings/josm-apt.gpg
