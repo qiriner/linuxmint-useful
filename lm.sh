@@ -27,7 +27,6 @@ sudo apt install open-vm-tools-desktop
 
 #Fix keyboard layout switch (aka Bug #865)
 sudo add-apt-repository ppa:nrbrtx/xorg-hotkeys
-sudo apt dist-upgrade
 
 #JOSM (Java OpenStreetMap Editor)
 sudo apt install josm-installer
