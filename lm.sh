@@ -30,3 +30,4 @@ sudo apt dist-upgrade
 
 #JOSM (Java OpenStreetMap Editor)
 sudo apt install josm-installer
+sudo josm-installer
