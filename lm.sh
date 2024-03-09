@@ -9,7 +9,7 @@ sudo add-apt-repository ppa:libreoffice/ppa
 #Microsoft Core Fonts
 sudo apt install ttf-mscorefonts-installer
 
-#GIMP
+#GIMP (GNU Image Manipulation Program)
 ##Basic repository
 sudo apt install gimp
 ##PPA unofficial repository
@@ -28,7 +28,5 @@ sudo apt install open-vm-tools-desktop
 sudo add-apt-repository ppa:nrbrtx/xorg-hotkeys
 sudo apt dist-upgrade
 
-#JOSM repository & install
-sudo wget -P /etc/apt/keyrings https://josm.openstreetmap.de/josm-apt.key
-echo "deb [arch=amd64 signed-by=/etc/apt/keyrings/josm-apt.key] https://josm.openstreetmap.de/apt alldist universe" | sudo tee /etc/apt/sources.list.d/josm.list > /dev/null
-sudo apt install josm
+#JOSM (Java OpenStreetMap Editor)
+sudo apt install josm-installer
