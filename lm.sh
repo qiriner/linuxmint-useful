@@ -17,6 +17,7 @@ sudo add-apt-repository ppa:ubuntuhandbook1/gimp
 
 #Wine
 sudo apt install wine-installer
+winecfg
 
 #VirtualBox Guest Additions
 sudo apt install virtualbox-guest-x11
