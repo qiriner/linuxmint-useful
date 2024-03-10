@@ -20,6 +20,9 @@ sudo apt install wine-installer
 reboot
 winecfg
 
+#VirtualBox
+sudo apt install virtualbox virtualbox-ext-pack
+
 #VirtualBox Guest Additions
 sudo apt install virtualbox-guest-x11
 
